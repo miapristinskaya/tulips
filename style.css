@@ -57,28 +57,34 @@ body {
   font-weight: 700;
   letter-spacing: 3.3px;
   text-transform: uppercase;
-  padding-bottom: 38px;
+  margin-bottom: 38px;
 }
 
 .article-paragraph {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 2.4px;
-  padding-bottom: 28px;
+  margin-bottom: 28px;
 }
 
 .catalog-button {
   display: block;
-  margin: 66px auto 82px auto;
+  margin: 66px auto 82px;
   background-color: #ff0000;
   padding: 20px 48px;
   border: none;
-  color: #ffffff;
+  border-radius: 5px;
+  font-family: inherit; /*surprisingly not inherited without such line! interesting*/
   font-weight: 700;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 1.8px;
   text-transform: uppercase;
+}
+
+.catalog-button-link {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .copyright {
@@ -87,6 +93,6 @@ body {
   line-height: 20px;
   letter-spacing: 2.4px;
   width: 39%;
-  margin-left: 713px;
+  margin-left: 56vw;
   margin-bottom: 29px;
 }
