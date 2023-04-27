@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.main-header {
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+  text-align: center;
+}
+
+.menu-list {
+  display: inline;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  display: inline;
+  padding-left: 36px;
+  padding-right: 36px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+}
+
+.menu-item-link {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+.menu-item-link:hover {
+  border-bottom: 2px solid #ff0000;
+}
+
+.main-photo {
+  max-width: 100%;
+}
+
+.main-article {
+  color: #373737;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 49px;
+  text-align: center;
+}
+
+.article-heading {
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 700;
+  letter-spacing: 3.3px;
+  text-transform: uppercase;
+  padding-bottom: 38px;
+}
+
+.article-paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.4px;
+  padding-bottom: 28px;
+}
+
+.catalog-button {
+  display: block;
+  margin: 66px auto 82px auto;
+  background-color: #ff0000;
+  padding: 20px 48px;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.copyright {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2.4px;
+  width: 39%;
+  margin-left: 713px;
+  margin-bottom: 29px;
+}
