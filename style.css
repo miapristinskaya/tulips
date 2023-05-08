@@ -8,7 +8,7 @@ body {
 .main-header {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
-  text-align: center; /*is it ok to use text-align here?*/
+  text-align: center;
 }
 
 .menu-list {
@@ -39,8 +39,8 @@ body {
 }
 
 .main-photo {
-  max-width: 100%; /*in case of 100% there is no difference between width and max-width, is it?*/
-  height: auto; /*just in case to save proportions?*/
+  width: 100%;
+  height: auto;
 }
 
 .main-article {
@@ -81,11 +81,8 @@ body {
   line-height: 12px;
   letter-spacing: 1.8px;
   text-transform: uppercase;
-}
-
-.catalog-button-link {
-  text-decoration: none;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .copyright {
@@ -98,7 +95,6 @@ body {
   margin-bottom: 29px;
 }
 
-/*I'll try :) */
 @media screen and (max-width: 750px) {
   .main-header {
     padding-top: 20px;
@@ -106,11 +102,11 @@ body {
   }
 
   .menu-item {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 9px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 8px;
     line-height: 9px;
-    letter-spacing: 1.3px;
+    letter-spacing: 1.2px;
   }
 
   .main-article {
